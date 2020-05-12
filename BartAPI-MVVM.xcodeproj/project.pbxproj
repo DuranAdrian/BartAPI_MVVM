@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9324F1232469C4010072E625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324F1222469C4010072E625 /* AppDelegate.swift */; };
+		9324F1252469C4010072E625 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324F1242469C4010072E625 /* SceneDelegate.swift */; };
+		9324F1272469C4010072E625 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324F1262469C4010072E625 /* HomeViewController.swift */; };
+		9324F12A2469C4010072E625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9324F1282469C4010072E625 /* Main.storyboard */; };
+		9324F12C2469C4050072E625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9324F12B2469C4050072E625 /* Assets.xcassets */; };
+		9324F12F2469C4050072E625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9324F12D2469C4050072E625 /* LaunchScreen.storyboard */; };
+		9324F13B2469C4450072E625 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324F13A2469C4450072E625 /* Station.swift */; };
+		9324F1442469C5050072E625 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324F13E2469C5050072E625 /* NetworkManager.swift */; };
+		9324F1472469C5050072E625 /* StationsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324F1422469C5050072E625 /* StationsAPI.swift */; };
+		9324F14A2469C5700072E625 /* StationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324F1492469C5700072E625 /* StationInfo.swift */; };
+		9324F1512469DAC50072E625 /* NextTrainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324F14D2469DAC50072E625 /* NextTrainCell.swift */; };
+		9324F1522469DAC50072E625 /* NearestStationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324F14E2469DAC50072E625 /* NearestStationCell.swift */; };
+		9324F15D2469DADB0072E625 /* MapKit+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324F1562469DADB0072E625 /* MapKit+Ext.swift */; };
+		9324F15E2469DADB0072E625 /* UIButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324F1572469DADB0072E625 /* UIButton+Ext.swift */; };
+		9324F15F2469DADB0072E625 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324F1582469DADB0072E625 /* UIColor+Ext.swift */; };
+		9324F1602469DADB0072E625 /* DispatchQueue+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324F1592469DADB0072E625 /* DispatchQueue+Ext.swift */; };
+		9324F1612469DADB0072E625 /* NavigationController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324F15A2469DADB0072E625 /* NavigationController+Ext.swift */; };
+		9324F1622469DADB0072E625 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324F15B2469DADB0072E625 /* UIViewController+Ext.swift */; };
+		9324F1632469DADB0072E625 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324F15C2469DADB0072E625 /* UIView+Ext.swift */; };
+		937F1C8E2469EECA0087CC3E /* NeoMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937F1C8D2469EECA0087CC3E /* NeoMap.swift */; };
+		937F1C902469F22A0087CC3E /* NeoTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937F1C8F2469F22A0087CC3E /* NeoTableView.swift */; };
+		93BE70F62469E5DA0063299A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BE70F52469E5DA0063299A /* HomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9324F11F2469C4010072E625 /* BartAPI-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BartAPI-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9324F1222469C4010072E625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9324F1242469C4010072E625 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9324F1262469C4010072E625 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9324F1292469C4010072E625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9324F12B2469C4050072E625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9324F12E2469C4050072E625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9324F1302469C4050072E625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9324F13A2469C4450072E625 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		9324F13E2469C5050072E625 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9324F1422469C5050072E625 /* StationsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsAPI.swift; sourceTree = "<group>"; };
+		9324F1492469C5700072E625 /* StationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationInfo.swift; sourceTree = "<group>"; };
+		9324F14D2469DAC50072E625 /* NextTrainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextTrainCell.swift; sourceTree = "<group>"; };
+		9324F14E2469DAC50072E625 /* NearestStationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearestStationCell.swift; sourceTree = "<group>"; };
+		9324F1562469DADB0072E625 /* MapKit+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MapKit+Ext.swift"; sourceTree = "<group>"; };
+		9324F1572469DADB0072E625 /* UIButton+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Ext.swift"; sourceTree = "<group>"; };
+		9324F1582469DADB0072E625 /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		9324F1592469DADB0072E625 /* DispatchQueue+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Ext.swift"; sourceTree = "<group>"; };
+		9324F15A2469DADB0072E625 /* NavigationController+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NavigationController+Ext.swift"; sourceTree = "<group>"; };
+		9324F15B2469DADB0072E625 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		9324F15C2469DADB0072E625 /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		937F1C8D2469EECA0087CC3E /* NeoMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoMap.swift; sourceTree = "<group>"; };
+		937F1C8F2469F22A0087CC3E /* NeoTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoTableView.swift; sourceTree = "<group>"; };
+		93BE70F52469E5DA0063299A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9324F11C2469C4010072E625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9324F1162469C4010072E625 = {
+			isa = PBXGroup;
+			children = (
+				9324F1212469C4010072E625 /* BartAPI-MVVM */,
+				9324F1202469C4010072E625 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9324F1202469C4010072E625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9324F11F2469C4010072E625 /* BartAPI-MVVM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9324F1212469C4010072E625 /* BartAPI-MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				9324F1552469DADB0072E625 /* Extensions */,
+				9324F14B2469DAB80072E625 /* Views */,
+				9324F13D2469C5050072E625 /* Network */,
+				9324F1392469C4360072E625 /* Models */,
+				9324F1382469C4240072E625 /* StoryBoards */,
+				9324F1372469C41B0072E625 /* ViewController */,
+				9324F1362469C40A0072E625 /* Resources */,
+				9324F1222469C4010072E625 /* AppDelegate.swift */,
+				9324F1242469C4010072E625 /* SceneDelegate.swift */,
+				9324F1302469C4050072E625 /* Info.plist */,
+			);
+			path = "BartAPI-MVVM";
+			sourceTree = "<group>";
+		};
+		9324F1362469C40A0072E625 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9324F12B2469C4050072E625 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9324F1372469C41B0072E625 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9324F1262469C4010072E625 /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9324F1382469C4240072E625 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				9324F1282469C4010072E625 /* Main.storyboard */,
+				9324F12D2469C4050072E625 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		9324F1392469C4360072E625 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9324F13A2469C4450072E625 /* Station.swift */,
+				9324F1492469C5700072E625 /* StationInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9324F13D2469C5050072E625 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9324F13E2469C5050072E625 /* NetworkManager.swift */,
+				9324F13F2469C5050072E625 /* BartAPI */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9324F13F2469C5050072E625 /* BartAPI */ = {
+			isa = PBXGroup;
+			children = (
+				9324F1422469C5050072E625 /* StationsAPI.swift */,
+			);
+			path = BartAPI;
+			sourceTree = "<group>";
+		};
+		9324F14B2469DAB80072E625 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93AEA056246B19750011E1B3 /* Components */,
+				9324F1642469DBC20072E625 /* Home */,
+				9324F14C2469DAC50072E625 /* TableCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9324F14C2469DAC50072E625 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				9324F14D2469DAC50072E625 /* NextTrainCell.swift */,
+				9324F14E2469DAC50072E625 /* NearestStationCell.swift */,
+			);
+			name = TableCells;
+			path = "../../../../Downloads/BartAPI-master-2/BartAPI/Views/NeoViews/TableCells";
+			sourceTree = "<group>";
+		};
+		9324F1552469DADB0072E625 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9324F1562469DADB0072E625 /* MapKit+Ext.swift */,
+				9324F1572469DADB0072E625 /* UIButton+Ext.swift */,
+				9324F1582469DADB0072E625 /* UIColor+Ext.swift */,
+				9324F1592469DADB0072E625 /* DispatchQueue+Ext.swift */,
+				9324F15A2469DADB0072E625 /* NavigationController+Ext.swift */,
+				9324F15B2469DADB0072E625 /* UIViewController+Ext.swift */,
+				9324F15C2469DADB0072E625 /* UIView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9324F1642469DBC20072E625 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				93BE70F52469E5DA0063299A /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		93AEA056246B19750011E1B3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				937F1C8F2469F22A0087CC3E /* NeoTableView.swift */,
+				937F1C8D2469EECA0087CC3E /* NeoMap.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9324F11E2469C4010072E625 /* BartAPI-MVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9324F1332469C4050072E625 /* Build configuration list for PBXNativeTarget "BartAPI-MVVM" */;
+			buildPhases = (
+				9324F11B2469C4010072E625 /* Sources */,
+				9324F11C2469C4010072E625 /* Frameworks */,
+				9324F11D2469C4010072E625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BartAPI-MVVM";
+			productName = "BartAPI-MVVM";
+			productReference = 9324F11F2469C4010072E625 /* BartAPI-MVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9324F1172469C4010072E625 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = AdrianDuran;
+				TargetAttributes = {
+					9324F11E2469C4010072E625 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 9324F11A2469C4010072E625 /* Build configuration list for PBXProject "BartAPI-MVVM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9324F1162469C4010072E625;
+			productRefGroup = 9324F1202469C4010072E625 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9324F11E2469C4010072E625 /* BartAPI-MVVM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9324F11D2469C4010072E625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9324F12F2469C4050072E625 /* LaunchScreen.storyboard in Resources */,
+				9324F12C2469C4050072E625 /* Assets.xcassets in Resources */,
+				9324F12A2469C4010072E625 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9324F11B2469C4010072E625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9324F1272469C4010072E625 /* HomeViewController.swift in Sources */,
+				9324F1522469DAC50072E625 /* NearestStationCell.swift in Sources */,
+				9324F1622469DADB0072E625 /* UIViewController+Ext.swift in Sources */,
+				9324F1232469C4010072E625 /* AppDelegate.swift in Sources */,
+				9324F1472469C5050072E625 /* StationsAPI.swift in Sources */,
+				9324F1512469DAC50072E625 /* NextTrainCell.swift in Sources */,
+				937F1C8E2469EECA0087CC3E /* NeoMap.swift in Sources */,
+				9324F1602469DADB0072E625 /* DispatchQueue+Ext.swift in Sources */,
+				9324F15D2469DADB0072E625 /* MapKit+Ext.swift in Sources */,
+				9324F14A2469C5700072E625 /* StationInfo.swift in Sources */,
+				93BE70F62469E5DA0063299A /* HomeView.swift in Sources */,
+				9324F15F2469DADB0072E625 /* UIColor+Ext.swift in Sources */,
+				9324F1612469DADB0072E625 /* NavigationController+Ext.swift in Sources */,
+				9324F1442469C5050072E625 /* NetworkManager.swift in Sources */,
+				9324F15E2469DADB0072E625 /* UIButton+Ext.swift in Sources */,
+				9324F1632469DADB0072E625 /* UIView+Ext.swift in Sources */,
+				9324F13B2469C4450072E625 /* Station.swift in Sources */,
+				937F1C902469F22A0087CC3E /* NeoTableView.swift in Sources */,
+				9324F1252469C4010072E625 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9324F1282469C4010072E625 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9324F1292469C4010072E625 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9324F12D2469C4050072E625 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9324F12E2469C4050072E625 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9324F1312469C4050072E625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9324F1322469C4050072E625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9324F1342469C4050072E625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YN3QCKF83N;
+				INFOPLIST_FILE = "BartAPI-MVVM/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AdrianDuran.BartAPI-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9324F1352469C4050072E625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YN3QCKF83N;
+				INFOPLIST_FILE = "BartAPI-MVVM/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AdrianDuran.BartAPI-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9324F11A2469C4010072E625 /* Build configuration list for PBXProject "BartAPI-MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9324F1312469C4050072E625 /* Debug */,
+				9324F1322469C4050072E625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9324F1332469C4050072E625 /* Build configuration list for PBXNativeTarget "BartAPI-MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9324F1342469C4050072E625 /* Debug */,
+				9324F1352469C4050072E625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9324F1172469C4010072E625 /* Project object */;
+}
