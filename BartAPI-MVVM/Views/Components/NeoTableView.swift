@@ -74,6 +74,8 @@ class NeoTableView: UIView {
         override var intrinsicContentSize: CGSize {
             // For Debugging purposes
 //            print(tableView.contentSize)
+//            print("NEOTABLEVIEW: intrinsicContentSize")
+
             
             return tableView.contentSize
         }
@@ -81,7 +83,7 @@ class NeoTableView: UIView {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        print("NEOTABLEVIEW: layoutSubviews")
+//        print("NEOTABLEVIEW: layoutSubviews")
         topLeftShadow.frame = bounds
         layer.insertSublayer(topLeftShadow, at: 0)
         

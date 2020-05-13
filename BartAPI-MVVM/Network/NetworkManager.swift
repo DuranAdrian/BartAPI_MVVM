@@ -13,5 +13,5 @@ class NetworkManager {
     public lazy var stations = StationsAPI()
 //    public lazy var advisories = AdvisoryInfoAPI()
 //    public lazy var schedules = ScheduleAPI()
-//    public lazy var eta = RealTimeInfoAPI()
+    public lazy var eta = RealTimeInfoAPI()
 }

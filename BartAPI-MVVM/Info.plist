@@ -53,6 +53,14 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This application uses current location to find closest BART Station.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This application uses current location to find closest BART Station.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>This application uses current location to find closest BART Station.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This application uses current location to find closest BART Station.</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

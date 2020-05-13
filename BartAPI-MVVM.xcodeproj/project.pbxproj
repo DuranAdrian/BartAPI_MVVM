@@ -26,6 +26,9 @@
 		9324F1612469DADB0072E625 /* NavigationController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324F15A2469DADB0072E625 /* NavigationController+Ext.swift */; };
 		9324F1622469DADB0072E625 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324F15B2469DADB0072E625 /* UIViewController+Ext.swift */; };
 		9324F1632469DADB0072E625 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324F15C2469DADB0072E625 /* UIView+Ext.swift */; };
+		933D1395246B20E0001A00C8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933D1394246B20E0001A00C8 /* HomeViewModel.swift */; };
+		933D1397246B23C2001A00C8 /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933D1396246B23C2001A00C8 /* Train.swift */; };
+		933D1399246B43DF001A00C8 /* RealTimeInfoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933D1398246B43DF001A00C8 /* RealTimeInfoAPI.swift */; };
 		937F1C8E2469EECA0087CC3E /* NeoMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937F1C8D2469EECA0087CC3E /* NeoMap.swift */; };
 		937F1C902469F22A0087CC3E /* NeoTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937F1C8F2469F22A0087CC3E /* NeoTableView.swift */; };
 		93BE70F62469E5DA0063299A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BE70F52469E5DA0063299A /* HomeView.swift */; };
@@ -53,6 +56,9 @@
 		9324F15A2469DADB0072E625 /* NavigationController+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NavigationController+Ext.swift"; sourceTree = "<group>"; };
 		9324F15B2469DADB0072E625 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		9324F15C2469DADB0072E625 /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		933D1394246B20E0001A00C8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		933D1396246B23C2001A00C8 /* Train.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
+		933D1398246B43DF001A00C8 /* RealTimeInfoAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealTimeInfoAPI.swift; sourceTree = "<group>"; };
 		937F1C8D2469EECA0087CC3E /* NeoMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoMap.swift; sourceTree = "<group>"; };
 		937F1C8F2469F22A0087CC3E /* NeoTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeoTableView.swift; sourceTree = "<group>"; };
 		93BE70F52469E5DA0063299A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -88,13 +94,14 @@
 		9324F1212469C4010072E625 /* BartAPI-MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				9324F1362469C40A0072E625 /* Resources */,
 				9324F1552469DADB0072E625 /* Extensions */,
-				9324F14B2469DAB80072E625 /* Views */,
 				9324F13D2469C5050072E625 /* Network */,
 				9324F1392469C4360072E625 /* Models */,
+				933D1393246B20C3001A00C8 /* View Models */,
 				9324F1382469C4240072E625 /* StoryBoards */,
+				9324F14B2469DAB80072E625 /* Views */,
 				9324F1372469C41B0072E625 /* ViewController */,
-				9324F1362469C40A0072E625 /* Resources */,
 				9324F1222469C4010072E625 /* AppDelegate.swift */,
 				9324F1242469C4010072E625 /* SceneDelegate.swift */,
 				9324F1302469C4050072E625 /* Info.plist */,
@@ -130,6 +137,7 @@
 		9324F1392469C4360072E625 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				933D1396246B23C2001A00C8 /* Train.swift */,
 				9324F13A2469C4450072E625 /* Station.swift */,
 				9324F1492469C5700072E625 /* StationInfo.swift */,
 			);
@@ -148,6 +156,7 @@
 		9324F13F2469C5050072E625 /* BartAPI */ = {
 			isa = PBXGroup;
 			children = (
+				933D1398246B43DF001A00C8 /* RealTimeInfoAPI.swift */,
 				9324F1422469C5050072E625 /* StationsAPI.swift */,
 			);
 			path = BartAPI;
@@ -193,6 +202,14 @@
 				93BE70F52469E5DA0063299A /* HomeView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		933D1393246B20C3001A00C8 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				933D1394246B20E0001A00C8 /* HomeViewModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 		93AEA056246B19750011E1B3 /* Components */ = {
@@ -276,8 +293,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9324F1272469C4010072E625 /* HomeViewController.swift in Sources */,
+				933D1399246B43DF001A00C8 /* RealTimeInfoAPI.swift in Sources */,
 				9324F1522469DAC50072E625 /* NearestStationCell.swift in Sources */,
 				9324F1622469DADB0072E625 /* UIViewController+Ext.swift in Sources */,
+				933D1395246B20E0001A00C8 /* HomeViewModel.swift in Sources */,
 				9324F1232469C4010072E625 /* AppDelegate.swift in Sources */,
 				9324F1472469C5050072E625 /* StationsAPI.swift in Sources */,
 				9324F1512469DAC50072E625 /* NextTrainCell.swift in Sources */,
@@ -290,6 +309,7 @@
 				9324F1612469DADB0072E625 /* NavigationController+Ext.swift in Sources */,
 				9324F1442469C5050072E625 /* NetworkManager.swift in Sources */,
 				9324F15E2469DADB0072E625 /* UIButton+Ext.swift in Sources */,
+				933D1397246B23C2001A00C8 /* Train.swift in Sources */,
 				9324F1632469DADB0072E625 /* UIView+Ext.swift in Sources */,
 				9324F13B2469C4450072E625 /* Station.swift in Sources */,
 				937F1C902469F22A0087CC3E /* NeoTableView.swift in Sources */,

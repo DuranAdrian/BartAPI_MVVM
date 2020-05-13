@@ -166,6 +166,10 @@ class NeoMap: UIView, MKMapViewDelegate, CLLocationManagerDelegate {
             centerOnBayArea()
             return
         }
+        if !map.annotations.isEmpty {
+            // Remove all annotations
+            map.removeAnnotations(map.annotations)
+        }
         // Assumes there are valid items in listOfStations
         var zoomRect = MKMapRect.null
         
